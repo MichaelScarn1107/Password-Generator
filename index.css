@@ -1,24 +1,122 @@
+*{
+    margin:0;
+}
 body {
-    margin: 0;
-    background-color:black
+    font-family: 'Inter', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
+
 .container {
-  position: absolute;
-  background-color: #1f2937;
-  width: 500px;
-  height: 350px;
-  left: 25%;
-  top: 25%;
-  border: 5px solid #4adf86;
-  border-radius: 10px;
-  padding: 5% 2.5%;
+    background-color: #1F2937;
+    height: 400px;
+    width: 400px;
+    border: 3px solid #4ADF86;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 35vw;
+    margin-top: 20vh;
+
+
 }
-h1, h2 {
+
+.heading {
+    /* border: 5px solid; */
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.heading h1{
     color: white;
 }
-.password-fields button {
-    width: 150px;
-    height: 25px;
-    margin-top: 10px;
-    margin-right: 20px;
+.heading span{
+    color: #4ADF86;
+    
 }
+
+hr{
+    width: 80%;
+    height: 1px;
+    background-color: #4ADF86;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+ .functionButtons{
+    /* border: 3px solid; */
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#generate-btn{
+    width: 180px;
+    height: 30px;
+    background-color: #4ADF86;
+    margin-right: 20px;
+    border-radius: 6px;
+    font-weight: bolder;
+    /* font-size: 60px; */
+}
+
+#clear-btn{
+    width: 80px;
+    height: 30px;
+    background-color: #4ADF86;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.passwordButtons{
+    /* border: 3px solid; */
+
+}
+.passwordButtons button{
+    width: 130px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #3b4e68;
+    border-radius: 6px;
+    border:none;
+    color:#4ADF86;
+    font-size: 14px;
+    margin-bottom:0;
+    
+}
+
+.slidecontainer {
+    display: flex;
+    /* border: 3px solid; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.slidecontainer p{
+    /* border: 2px solid ; */
+    margin-left: 10px;
+    color: white;
+}
+
+.slidecontainer span{
+    color: #4ADF86;
+}
+
+.copyButtons{
+    margin-left: 10px;
+}
+#copy-button1{
+   background-color: #4ADF86;
+   border:none;
+   border-radius: 6px;
+   margin-right:100px;
+   margin-left: 40px;
+   font-weight: bolder;
+    
+}
+
+#copy-button2{
+    background-color: #4ADF86;
+    border:none;
+    border-radius: 6px;
+    margin-right:100px;
+    font-weight: bolder;
+     
+ }
